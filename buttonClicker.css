@@ -1,0 +1,116 @@
+* {
+	border: 0 none;
+	outline: 0;
+	margin: 0;
+    font-family: monospace bold;
+    list-style-type: none;
+}
+
+/*NAVBAR*/
+
+.upside {
+    width: 850px;
+    height: 90px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.login {
+    width: 70px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    background-color:cornflowerblue;
+    color: aliceblue;
+}
+.input1 {
+    border: 2px solid black;
+    width: 200px;
+    height: 20px;
+    background-color: white;
+}
+#btnBusca {
+    color: darkgray;
+}
+
+/*BOXES*/
+
+.upside, .box1, .box2 {
+    margin-left: 250px;
+}
+.box1, .box2 {
+    border: 3px solid black;
+    border-radius: 3%;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.high {
+    font-size: 30px;
+}
+.box3 {
+    width: 280px;
+    height: 110px;
+    border: 3px solid black;
+    border-radius: 3%;
+    margin-top: -440px;
+    margin-left: 780px;
+    padding-top: 20px;
+    padding-left: 70px;
+    line-height: 40px;
+
+}
+
+/*TEXTS*/
+
+.text {
+    width: 180px;
+    height: 180px;
+    flex: 1;
+    text-align: center;
+    line-height: 40px;
+}
+.meaning {
+    width: 280px;
+    height: 150px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 65px;
+    line-height: 35px;
+}
+
+/*LITTLE BOXES*/
+
+button, .adddefinition {
+    width: 85px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    background-color:darkorange;
+    color: black;
+    font-weight: bold;
+}
+#adddefinition {
+    width: 120px;
+    height: 45px;
+    background-color:forestgreen; 
+    margin-left: 40px;
+}
+.span {
+    color: blue;
+}
+.likes {
+    margin-left: 65px;
+}

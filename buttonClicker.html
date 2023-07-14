@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="buttonClicker.css">
+    <script src="buttonClicker.js" defer></script>
+</head>
+
+<body>
+    <div class="upside">
+        <div class="dojonary">
+            <h1>Dojonary</h1>
+        </div>
+        <div class="input1">
+            <input type="text" placeholder="Search... " style="color: darkgray;">
+        </div>
+        <div>
+            <button class="login" onclick="ChangeName(this)">Login</button>
+        </div>
+    </div>
+    <div class="box1">
+        <div class="text">
+            <h2 class="high">ninja</h2>
+            <h3><em>noun</em></h3>
+            <h4>Plural: <em>ninjas</em></h4>
+            <button class="likes" onclick="alert('Ninja was liked')">13 likes</button>
+        </div>
+        <div class="meaning">
+            <h3>A practitioner skilled in the <u><span style="color: blue;">Japanese </span></u>art of <u><span style="color: blue;">ninjutsu</span></u></h3>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="text">
+             <h2 class="high">ninja</h2>
+             <h3><em>noun</em></h3>
+             <h4>Plural: <em>ninjas</em></h4>
+             <button class="likes" onclick="alert('Ninja was liked')">37 likes</button>
+        </div>
+        <div class="meaning">
+            <h3>A <u><span style="color: blue;">Programmer </span></u>who breaks down problems with <u><span style="color: blue;">zen</span></u>-like focus</h3>
+        </div>
+    </div>
+    <div class="box3">
+        <h3>Dojonary is defined by <strong>YOU</strong></h3>
+        <button id="adddefinition" onclick="document.getElementById('adddefinition').style.display='none'">Add definition</button>
+    </div>
+</body>
+</html>
